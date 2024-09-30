@@ -34,6 +34,15 @@ const Portfolio = () => {
               Tarea 3 - página institucional
             </a>
           </li>
+          <li>
+            <a
+              className="proyectos"
+              href="https://github.com/JuDaCa-UAO/JavaScripts-Clase2.git"
+              target="_blank" rel="noopener noreferrer"
+            >
+              Tarea 4 - Comparación de números
+            </a>
+          </li>
         </ul>
       </main>
     </div>

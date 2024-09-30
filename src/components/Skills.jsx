@@ -6,7 +6,8 @@ const Skills = () => {
     'Excelente atención al cliente',
     'Paciencia y tolerancia',
     'Manejo de inglés a nivel B2',
-    // Agrega más habilidades blandas aquí
+    'Habilidad para resolver problemas',
+    'Trabajo en equipo',
   ];
 
   const hardSkills = [
@@ -15,7 +16,6 @@ const Skills = () => {
     'Conocimientos básicos de Java',
     'Manejo de consultas SQL',
     'Conocimientos básicos en C#',
-    // Agrega más habilidades duras aquí
   ];
 
   return (
@@ -23,21 +23,21 @@ const Skills = () => {
       <div className="izquierda">
         <div className="fondoColumna">
           <h1 className="subtitle">Blandas</h1>
-          <ul>
+          <il>
             {softSkills.map((skill, index) => (
               <li key={index}>{skill}</li>
             ))}
-          </ul>
+          </il>
         </div>
       </div>
       <div className="derecha">
         <div className="fondoColumna">
           <h1 className="subtitle">Duras</h1>
-          <ul>
+          <il>
             {hardSkills.map((skill, index) => (
               <li key={index}>{skill}</li>
             ))}
-          </ul>
+          </il>
         </div>
       </div>
     </div>
